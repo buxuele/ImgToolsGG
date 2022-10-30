@@ -1,0 +1,21 @@
+language: python
+python:
+  - 3.8
+
+# Update pip to the latest version
+before_install:
+  - python --version
+  - pip install -U pip
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python -m unittest tests/image_tools_tests.py
+
+deploy:
+  provider: pypi
+  username: "buxuele"
+  password: "LD8VjZhQFzY@cL_"
+  on:
+    branch: master
