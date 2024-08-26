@@ -1,4 +1,5 @@
-from ImgTools import ImageUtils
+from src import ImageUtils
+
 # Instantiate a  object
 my_utils = ImageUtils("some.jpg")
 
