@@ -1,7 +1,9 @@
 build/
 dist/
 
+src/__pycache__/
 ImgToolsGG.egg-info/
 
 
 secrets_秘密文件.md
+
