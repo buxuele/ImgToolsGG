@@ -7,5 +7,5 @@ convert_image_to_jpg(p)
 
 
 # test 2
-print_exif_data("some_image.jpg")
+print_exif_data("./imgs/3.jpg")
 
