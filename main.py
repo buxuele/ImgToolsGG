@@ -1,8 +1,11 @@
-from src import ImageUtils
+from src import convert_image_to_jpg, print_exif_data
 
-# Instantiate a  object
-my_utils = ImageUtils("some.jpg")
 
-# Call the method
-print(my_utils.get_image_name())
+# test 1
+p = r"C:\Users\Administrator\Desktop\imgs\meme"
+convert_image_to_jpg(p)
+
+
+# test 2
+print_exif_data("some_image.jpg")
 

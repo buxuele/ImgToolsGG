@@ -1,9 +1,12 @@
+
+# 文件夹
 build/
 dist/
-
 src/__pycache__/
 ImgToolsGG.egg-info/
 
 
+# 单个文件
 secrets_秘密文件.md
+gg.bat
 
