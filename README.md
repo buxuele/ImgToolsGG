@@ -25,3 +25,13 @@ print_exif_data("./imgs/3.jpg")
 
 ```
 
+
+# 添加一些图片
+
+
+![图片描述](./imgs/2.jpg)
+![图片描述](./imgs/3.jpg)
+![图片描述](./imgs/4.jpg)
+![图片描述](./imgs/5.jpg)
+![图片描述](./imgs/6.jpg)
+
