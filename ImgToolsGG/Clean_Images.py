@@ -12,14 +12,6 @@ import pillow_avif # pip install pillow-avif-plugin
 """
 
 
-# def rename_images(where="./"):
-#     for root, dirs, files in os.walk(where):
-#         for a in files:
-#             old = os.path.join(root, a)
-#             new = os.path.join(root, str(uuid.uuid4()) + "_" + a)
-#             os.rename(old, new)
-
-
 # 把全部的图片，都转为 jpg, 然后保存到桌面
 def convert_image_to_jpg(source="./", output_suffix="jpg"):
     output_dir = r"C:\Users\Administrator\Desktop\temp_images_" + str(uuid.uuid4())
@@ -55,7 +47,7 @@ def convert_image_to_jpg(source="./", output_suffix="jpg"):
 
 
 if __name__ == '__main__':
-    # 传入文件夹地址， 默认保存到桌面
-    p = r""
-    convert_image_to_jpg(p)
 
+    # 传入文件夹地址， 默认保存到桌面
+    p = r"C:\Users\Administrator\Music\test"
+    convert_image_to_jpg(p)

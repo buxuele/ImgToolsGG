@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="ImgToolsGG",  # todo fix this name
-    version="0.1.23",
+    version="0.3.45",
     description="test how to make a package",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -35,7 +35,7 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Operating System :: OS Independent"
     ],
-    packages=["src"],  # todo: main folder
+    packages=["ImgToolsGG"],  # todo: main folder
     include_package_data=True,
     install_requires=["numpy"]
 )

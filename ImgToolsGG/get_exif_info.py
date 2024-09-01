@@ -17,22 +17,5 @@ def print_exif_data(img_path):
 
 
 if __name__ == '__main__':
-    print_exif_data('yoga.jpg')
+    print_exif_data('../imgs/yoga.JPG')
 
-
-"""
-<class 'PIL.Image.Exif'>
-GPSInfo:21360
-ResolutionUnit:2
-ExifOffset:348
-Make:NIKON CORPORATION
-Model:NIKON D850
-Software:Ver.1.20 
-Orientation:8
-DateTime:2022:06:26 12:41:48
-YCbCrPositioning:2
-YResolution:300.0
-Copyright:                                                      
-XResolution:300.0
-Artist:                                    
-"""
