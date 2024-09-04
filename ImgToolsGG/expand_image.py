@@ -1,4 +1,3 @@
-
 from PIL import Image
 import os
 
@@ -29,7 +28,7 @@ def duplicate_and_combine_horizontally(image_path):
     print(f"Image saved as {output_filename}")
 
 
-# 使用函数，传入图片路径
-duplicate_and_combine_horizontally('../imgs/2.jpg')
-duplicate_and_combine_horizontally('y.jpg')
+if __name__ == '__main__':
+    # 使用函数，传入图片路径
+    duplicate_and_combine_horizontally('../imgs/2.jpg')
 

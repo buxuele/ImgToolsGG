@@ -28,3 +28,6 @@ print_exif_data("./imgs/yoga.JPG")
 ![图片描述](./imgs/5.jpg)
 ![图片描述](./imgs/6.jpg)
 
+# 走过路过，支持一下啊
+![图片描述](./imgs/wx.jpg)
+
